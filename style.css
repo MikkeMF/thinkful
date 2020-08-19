@@ -41,11 +41,15 @@ body {
     
 }
 
-#navbar ul a {
+#navbar ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-family: 'Fira Mono',monospace;
+}
+
+#navbar ul li a:hover {
+    color: #8A0707;
 }
 
 #navbar li
@@ -71,6 +75,10 @@ body {
     margin-right: auto;
     border-radius: 50%;
     
+}
+
+.avatar a {
+    color: #8A0707;
 }
 
 a img .social {
