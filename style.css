@@ -1,0 +1,89 @@
+/* All written by Michael */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Mono',monospace;
+}
+
+body {
+    background-color: white;
+}
+
+#navbar {
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    border-bottom-width:2px;
+    border-bottom-color:lavender;
+    border-bottom-style: solid;
+    overflow: auto;
+}
+
+#navbar #title {
+    margin-left: 3em;
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Fira Mono',monospace;
+}
+
+#navbar #title #subTitle {
+    font-size: .5em;
+}
+
+#navbar #pages {
+
+    float: right;
+    
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Fira Mono',monospace;
+}
+
+#navbar li
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.avatar {
+    position: relative;
+    width: 100%;
+    float: center;
+    text-align: center;
+    
+}
+
+.avatar .img {
+    display: block;
+    width: 200px;;
+    margin-top: 9em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+}
+
+a img .social {
+    width: 100px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-width:2px;
+    border-top-color:lavender;
+    border-top-style: solid;
+    text-align: center;
+}

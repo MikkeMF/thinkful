@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Michael Medina Franco">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <a href="/"><title>Michael</title></a>
+        <link rel="stylesheet" type="text/css" href="style.css"/>    
+    </head>
+    <body>
+        <!-- Websites navbar note: there is a way to make this a component and show on every page without having to write this code more than once -->
+        <div id="navbar">
+            <div id="title">
+                <h3>MICHAEL MF</h3>
+            </div>
+            <div id="pages">
+                <ul>
+                    <a href="/"><li>HOME</li></a>
+                    <a href="/about.html"><li>ABOUT</li></a>
+                    <a href="mailto:micha3lmf@gmail.com"><li>CONTACT</li></a>
+                </ul>
+            </div>
+        </div>
+        <!-- Avatar image that centers div -->
+        <div class="avatar">
+            <img src="/avatar.jpg" class="img"/>
+            <h1>MICHAEL MEDINA FRANCO </h1>
+            <p>KANSAS CITY, MO</p>
+            <span id="subTitle"></span>
+            <div style="margin-top: 1em;">
+                <a href="https://twitter.com/micha3lmf"><img src="twitter.png" style="width:50px;"/></a>
+                <a href="https://www.linkedin.com/in/michael-medina-franco-8207bb16a/"></a><img src="linkedin.png" style="width:50px;"/></a>
+                <a href="https://github.com/MikkeMF"></a><img src="github.png" style="width:50px;"/></a>
+            </div>
+            
+            
+        </div>
+
+        <footer>
+            All rights reserved 2020.
+        </footer>
+        <!-- Javascrpt to control text animation -->
+        <script>
+            let x = 0;
+            let job = "SOFTWARE ENGINEER";
+            let speed = 080;
+
+            function titleWriter() {
+                if ( x < job.length) {
+                    document.getElementById("subTitle").innerHTML += job.charAt(x);
+                    x++;
+                    setTimeout(titleWriter, speed);
+                
+                }
+            }
+            titleWriter();
+        </script>
+    </body>
+
+</html>
