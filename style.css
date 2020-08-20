@@ -77,7 +77,7 @@ body {
     
 }
 
-.avatar a {
+.avatar a:hover {
     color: #8A0707;
 }
 
