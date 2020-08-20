@@ -6,6 +6,10 @@
     font-family: 'Fira Mono',monospace;
 }
 
+a {
+    color: #8A0707;
+}
+
 body {
     background-color: white;
 }
