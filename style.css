@@ -77,6 +77,13 @@ body {
     
 }
 
+.avatar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Fira Mono',monospace;
+}
+
 .avatar a:hover {
     color: #8A0707;
 }
