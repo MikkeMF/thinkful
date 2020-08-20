@@ -6,17 +6,6 @@
     font-family: 'Fira Mono',monospace;
 }
 
-a {    
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-family: 'Fira Mono',monospace;
-}
-
-a:hover {
-    color: #8A0707;
-}
-
 body {
     background-color: white;
 }
